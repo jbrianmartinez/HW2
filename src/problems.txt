@@ -1,0 +1,63 @@
+2.1.1
+
+                        a[]
+i  min   0  1  2  3  4  5  6  7  8  9  10 11
+--------------------------------------------
+0  1     E  A  S  Y  Q  U  E  S  T  I  O  N
+1  6     A  E  S  Y  Q  U  E  S  T  I  O  N
+2  9     A  E  E  Y  Q  U  S  S  T  I  O  N
+3  11    A  E  E  I  Q  U  S  S  T  Y  O  N
+4  10    A  E  E  I  N  U  S  S  T  Y  O  Q
+5  11    A  E  E  I  N  O  S  S  T  Y  U  Q
+6  11    A  E  E  I  N  O  Q  S  T  Y  U  S
+7  11    A  E  E  I  N  O  Q  S  S  Y  U  T
+8  11    A  E  E  I  N  O  Q  S  S  T  U  Y
+         A  E  E  I  N  O  Q  S  S  T  U  Y
+
+2.1.5
+
+If the array is fully sorted except for the first two elements (i.e., a[1] < a[0]), the sort will swap those two
+elements and j will decrement to 0, at which point j > 0 will evaluate false and exit the loop.
+
+If the array is fully sorted except for the *last* two elements (i.e., a[a.length] < a[a.length - 1]),
+less(a[j],a[j-1]), the sort will swap those two elements, at which point less will evaluate false and exit the loop.
+
+2.1.9
+
+E A S Y S H E L L S O R T Q U E S T I O N
+E A E Y S H E L L S O R T Q U S S T I O N
+E A E S S H E L L S O R T Q U S Y T I O N
+E A E L S H E S L S O R T Q U S Y T I O N
+E A E L L H E S S S O R T Q U S Y T I O N
+E A E L L H E R S S O S T Q U S Y T I O N
+E A E L L H E R S Q O S T S U S Y T I O N
+E A E L L H E R S Q O S T S I S Y T U O N
+E A E L L H E R S Q I S T S O S Y T U O N
+E A E L L H E R S Q I S T S O O Y T U S N
+E A E L L H E R S Q I O T S O S Y T U S N
+E A E L L H E O S Q I R T S O S Y T U S N
+E A E L L H E O S Q I R T S O S N T U S Y
+E A E L L H E O S Q I R N S O S T T U S Y
+E A E L L H E O N Q I R S S O S T T U S Y
+A E E L L H E O N Q I R S S O S T T U S Y
+A E E L H L E O N Q I R S S O S T T U S Y
+A E E H L L E O N Q I R S S O S T T U S Y
+A E E H L E L O N Q I R S S O S T T U S Y
+A E E H E L L O N Q I R S S O S T T U S Y
+A E E E H L L O N Q I R S S O S T T U S Y
+A E E E H L L N O Q I R S S O S T T U S Y
+A E E E H L L N O I Q R S S O S T T U S Y
+A E E E H L L N I O Q R S S O S T T U S Y
+A E E E H L L I N O Q R S S O S T T U S Y
+A E E E H L I L N O Q R S S O S T T U S Y
+A E E E H I L L N O Q R S S O S T T U S Y
+A E E E H I L L N O Q R S O S S T T U S Y
+A E E E H I L L N O Q R O S S S T T U S Y
+A E E E H I L L N O Q O R S S S T T U S Y
+A E E E H I L L N O O Q R S S S T T U S Y
+A E E E H I L L N O O Q R S S S T T S U Y
+A E E E H I L L N O O Q R S S S T S T U Y
+A E E E H I L L N O O Q R S S S S T T U Y
+
+
+
